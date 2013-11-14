@@ -9,9 +9,27 @@ handlers:
   static_files: favicon.ico
   upload: favicon\.ico
 
+- url: /gplus
+  script: gplus.php   
+  
+- url: /youtube
+  script: youtube.php 
+  
+- url: /utsearch
+  script: utsearch.php
+  
+- url: /css
+  static_dir: css
+- url: /images
+  static_dir: images
+- url: /google
+  static_dir: google
+  
+  
 - url: .*
   script: main.php
   
+ 
 
   
   

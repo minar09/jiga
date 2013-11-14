@@ -36,9 +36,14 @@ $apiConfig = array(
     'site_name' => 'www.example.org',
 
     // Which Authentication, Storage and HTTP IO classes to use.
-    'authClass'    => 'Google_OAuth2',
-    'ioClass'      => 'Google_CurlIO',
-    'cacheClass'   => 'Google_FileCache',
+    // Which Authentication, Storage and HTTP IO classes to use.
+	'authClass'    => 'Google_OAuth2',
+	'ioClass'      => 'Google_HttpStreamIO',
+	'cacheClass'   => 'Google_MemcacheCache',
+
+	// We need to configure fake values for memcache to work
+	'ioMemCacheCache_host' => 'does_not_matter',
+	'ioMemCacheCache_port' => '37337',
 
     // Don't change these unless you're working against a special development or testing environment.
     'basePath' => 'https://www.googleapis.com',
