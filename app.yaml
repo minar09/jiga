@@ -12,7 +12,6 @@ handlers:
 - url: .*
   script: main.php
   
-application:
 
   
   
