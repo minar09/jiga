@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Ask In more innovative way</title>
+<title>Ask In More Innovative Way</title>
 <style type="text/css">
 .container {
 	height: 100%;
@@ -59,12 +59,12 @@ body {
 <div class="container">
     <div class="main_header">
         <div class="forHeaderwidth">
-        its a JIGA production
+        its an Inferno production
         </div>
     
     </div>
     <div class="middele">
-    	<a href="#" class="a-btn">
+    	<a href="http://gcdc2013-jiga.appspot.com/gplus" class="a-btn">
             <span class="a-btn-text">Ask A question</span> 
             <span class="a-btn-slide-text">Its More</span>
             <span class="a-btn-icon-right"><span></span></span>
