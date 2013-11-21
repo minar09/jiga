@@ -1,0 +1,13 @@
+@charset "utf-8";
+#list2 { width:80%;margin-left:auto;margin-right:auto }
+#list2 ol { font-style:italic; font-family:Georgia, Times, serif; font-size:24px; color:#bfe1f1;  }
+#list2 ol li { }
+#list2 ol li p {
+	padding: 8px;
+	font-style: normal;
+	font-family: Arial;
+	font-size: 15px;
+	color: #000;
+	border-left: 1px solid #999;
+}
+#list2 ol li p em { display:block; font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif; color:#09C; font-size:22px}
